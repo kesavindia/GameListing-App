@@ -36,8 +36,9 @@ function Home() {
         {allGamesList.length > 0 && gameListByGenres.length>0? (
           <div>
             <Banner gameBanner={allGamesList} />
-            <TrendingGames gameList={allGamesList} />
             <GamesByGenresId  gameList={gameListByGenres} selectedGenere={selectedGenereName}/>
+            <TrendingGames gameList={allGamesList} />
+           
 
           </div>
         ) : null}
