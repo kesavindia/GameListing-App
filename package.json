@@ -7,10 +7,6 @@
   "scripts": {
     "deploy": "gh-pages -b master -d build",
     "predeploy": "npm run build",
-<<<<<<< HEAD
-=======
-     "deploy": "gh-pages -d build",
->>>>>>> 6923d468c9ab2569581bfe487c38cbd3b9255d65
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
